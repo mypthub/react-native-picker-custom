@@ -1,0 +1,11 @@
+{
+  "name": "react-native-picker-custom",
+  "version": "1.0.0",
+  "description": "custom date picker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sybil052",
+  "license": "ISC"
+}
