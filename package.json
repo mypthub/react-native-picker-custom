@@ -6,6 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sybil052/react-native-picker-custom.git"
+  },
+  "keywords": [
+    "Baidu Map",
+    "React Native"
+  ],
   "author": "sybil052",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sybil052/react-native-picker-custom/issues"
+  },
+  "homepage": "https://github.com/sybil052/react-native-picker-custom#readme"
 }

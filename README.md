@@ -1,9 +1,4 @@
-# react-native-picker
-
-[![npm version](https://img.shields.io/npm/v/react-native-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker) <a href="https://david-dm.org/beefe/react-native-picker"><img src="https://david-dm.org/beefe/react-native-picker.svg?style=flat-square" alt="dependency status"></a>   
-
-![ui3](./doc/ui3.jpg)
-![ui4](./doc/ui4.jpg)
+# react-native-picker-custom
 
 ### Documentation
 
@@ -27,6 +22,11 @@
 |onPickerConfirm       |            |function|                   |
 |onPickerCancel        |            |function|                   |
 |onPickerSelect        |            |function|                   |
+|isShowLongTime        |            |boolean |false              |
+|pickerLongTimeText    |            |string  |长期                |
+|pickerLongTimeBg      |            |array   |[255, 255, 255, 1] |
+|pickerLongTimeFontColor|            |array  |[51, 51, 51, 1]    |
+|pickerLongTimeFontSize|            |number  |16                 |
 
 #### Methods
 
@@ -45,7 +45,7 @@
 #### Step 1 - install
 
 ```
-	npm install react-native-picker --save
+	npm install react-native-picker-custom --save
 ```
 
 #### Step 2 - link
@@ -57,7 +57,7 @@
 #### Step 3 - import and use in project
 
 ```javascript
-    import Picker from 'react-native-picker';
+    import Picker from 'react-native-picker-custom';
     let data = [];
     for(var i=0;i<100;i++){
         data.push(i);
